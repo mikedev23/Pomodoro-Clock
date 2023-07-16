@@ -145,7 +145,7 @@ const App = () => {
       <audio
         id='beep'
         ref={beepRef}
-        src='https://www.myinstants.com/media/sounds/nba-draft-sound-2021.mp3'
+        src={process.env.PUBLIC_URL + '/sounds/nba-draft-sound-2021.mp3'}
       ></audio>
     </div>
   )
